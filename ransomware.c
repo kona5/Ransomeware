@@ -11,7 +11,7 @@
 #include <arpa/inet.h>
 
 #define CHECK_INTERVAL 5
-#define WAIT_SECONDS 30
+#define WAIT_SECONDS 3600
 #define PROJECT_PATH "TP/Projet"
 #define TIMESTAMP_FILE "TP/.start_timestamp"
 #define KEY_FILE "TP/.key"
